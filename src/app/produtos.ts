@@ -11,7 +11,7 @@ export interface IProdutoCarrinho extends IProduto {
     
 }
 export const produtos: IProduto[] = [
-    { id: 1, descricao: "Mouse Gamer G102 Logitech", preco: 106.00, descricaoPreco: "À vista no PIX", imagem: "../assets/mouse-3.jpg", quantidadeEstoque: 10 },
+    { id: 1, descricao: "Mouse Gamer G102 Logitech", preco: 106.00, descricaoPreco: "À vista no PIX", imagem: "./assets/mouse-3.jpg", quantidadeEstoque: 10 },
     { id: 2, descricao: "Apple Studio Display – Vidro padrão – Adaptador para montagem VESA ​​​​​​​ ", preco: 15499, descricaoPreco: "À vista no PIX", imagem: "./assets/monitor-apple.jpg", quantidadeEstoque: 100 },
     { id: 3, descricao: "Teclado Magic Keyboard ", preco: 1149.99, descricaoPreco: "À vista no PIX", imagem: "./assets/teclado-1.jpg", quantidadeEstoque: 1098 },
     { id: 4, descricao: "Headphone Sony WH-1000XM4 Preto", preco: 1847.99, descricaoPreco: "À vista no PIX", imagem: "./assets/fone-de-ouvido-2.jpg", quantidadeEstoque: 410 },
